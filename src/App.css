@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+body{
+  background-image: linear-gradient(rgb(149, 210, 221)10%,rgb(187, 100, 100) 40%,white);
+  text-align: center;
+  height: 98vh;
+}
+.head{
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 3px 3px 5px cyan;
+  margin-top: 10px;
+}
+.btn{
+  height: 60px;
+  width: 300px;
+  border-radius: 40px;
+  margin: 50px 20px;
+  /* margin-right: 20px;
+  margin-top: 40px; */
+  border: 2px solid black;
+  background-color: lightblue;
+}
+.btn:hover{
+  background-color: cyan;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
